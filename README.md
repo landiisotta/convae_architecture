@@ -57,4 +57,4 @@ Synthetic data include:
 Model parameters can be modified in `utils.py`. 
 This example randomly initialize the embedding matrix.
 
-[1] 
+[1] Landi, I., Glicksberg, B. S., Lee, H. C., Cherng, S., Landi, G., Danieletto, M., Dudley, J. T., Furlanello, C., & Miotto, R. (2020). Deep Representation Learning of Electronic Health Records to Unlock Patient Stratification at Scale. arXiv preprint arXiv:2003.06516.
