@@ -43,7 +43,7 @@ class ehrEncoding(nn.Module):
                             scale=0.6, size=(emb_size,))
             print('Found pre-computed embeddings for {0} concepts'.format(
                 wfound))
-            self.embedding.from_pretrained(torch.FloatTensor(weight_mtx))
+            self.embedding = self.embedding.from_pretrained(torch.FloatTensor(weight_mtx), freeze=False)
 
         self.cnn_l1 = nn.Conv1d(self.emb_size, self.ch_l1,
                                 kernel_size=kernel_size, padding=self.padding)
